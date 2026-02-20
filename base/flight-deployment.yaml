@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         # CHANGE TO YOURS:<org/repo:tag>
-        - image: ghcr.io/asmaestro/bm-flight:latest
+        - image: ghcr.io/pprzybyl/course-bm-flight:latest
           name: flight
           ports:
             - containerPort: 8080
